@@ -12,10 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.doctarhyf.cvd.frags.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_symptoms_checker"
+        android:name="com.doctarhyf.cvd.frags.SymptomsCheckerFragment"
+        android:label="@string/menu_symptoms_checker"
+        tools:layout="@layout/fragment_sympt_checker" />
 
     <fragment
         android:id="@+id/nav_slideshow"
