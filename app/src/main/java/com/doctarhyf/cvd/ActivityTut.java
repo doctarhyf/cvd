@@ -2,9 +2,11 @@ package com.doctarhyf.cvd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.VideoView;
 
 public class ActivityTut extends AppCompatActivity {
@@ -22,5 +24,10 @@ public class ActivityTut extends AppCompatActivity {
 
         videoview.setVideoURI(uri);
         videoview.start();
+    }
+
+    public void skipTut(View view) {
+        Intent intent = new Intent(ActivityTut.this, MainActivity.class);
+        startActivity(intent);
     }
 }
